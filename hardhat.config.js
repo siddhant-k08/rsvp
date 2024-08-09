@@ -2,14 +2,14 @@ require("@nomicfoundation/hardhat-toolbox"); //new update from hardhat requires 
 require("dotenv").config();
 
 module.exports = {
-  solidity: "0.8.4",
+  solidity: "0.8.25",
   networks: {
     hardhat: {
       chainId: 1337,
     },
     amoy: {
-      url: process.env.STAGING_INFURA_URL,
-      accounts: [`0x${process.env.STAGING_PRIVATE_KEY}`],
+      url: process.env.ALCHEMY_API_KEY,
+      accounts: [`0x${process.env.PRIVATE_KEY}`],
       gas: 2100000,
       gasPrice: 25000000000,
     },
