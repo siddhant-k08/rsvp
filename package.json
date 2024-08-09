@@ -14,5 +14,8 @@
     "@nomicfoundation/hardhat-toolbox": "^1.0.2",
     "dotenv": "^16.4.5",
     "hardhat": "^2.10.1"
+  },
+  "dependencies": {
+    "@protofire/subgraph-toolkit": "^0.1.2"
   }
 }
