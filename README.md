@@ -12,4 +12,3 @@ npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
 
-POLYGON AMOY CONTRACT ADDRESS = 0xb3825D2f6012A418114f8F9b76cABB0c02E1dB20
