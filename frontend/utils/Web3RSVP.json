@@ -1,0 +1,19 @@
+{
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes32",
+        "name": "eventID",
+        "type": "bytes32"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "attendeeAddress",
+        "type": "address"
+      }
+    ],
+    "name": "ConfirmedAttendee",
+    "type": "event"
+  }
